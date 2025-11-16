@@ -9,7 +9,7 @@
       font-family: 'Georgia', serif;
       background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') no-repeat center center fixed;
       background-size: cover;
-      color: #333;
+      color: #f5f0ea; /* light text for contrast */
       margin: 0;
       padding: 0;
       line-height: 1.7;
@@ -23,6 +23,8 @@ h1 {
   font-size: 3em;
   margin: 0;
   letter-spacing: 2px;
+  color: #ffffff; /* bright white for contrast */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
 .container {
@@ -35,6 +37,50 @@ h1 {
   margin-bottom: 60px;
   padding-bottom: 40px;
   border-bottom: 1px solid #d8cfc4;
+}
+
+.poem h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #fff3dc; /* warm soft heading tone */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.poem p {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Poetry Collection</h1>
+  </header>  <div class="container"><div class="poem">
+  <h2>Poem Title 1</h2>
+  <p>Your poem text goes here...
+
+Line 1 Line 2 Line 3</p> </div>
+
+<div class="poem">
+  <h2>Poem Title 2</h2>
+  <p>Your second poem goes here...</p>
+</div>
+
+<!-- Add more poems by copying the structure above -->
+
+  </div>  <footer>
+    © Your Name — All Rights Reserved
+  </footer>
+</body>
+</html>  border-bottom: 1px solid #d8cfc4;
 }
 
 .poem h2 {
